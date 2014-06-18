@@ -2,7 +2,7 @@ require File.expand_path(File.dirname(__FILE__) + '/neo')
 require "awesome_print"
 
 class AboutHashes < Neo::Koan
-  def test_creating_hashes
+  def test_creating_hashes 
     empty_hash = Hash.new
     assert_equal Hash, empty_hash.class
     assert_equal({}, empty_hash)
